@@ -27,8 +27,5 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <CollectionView ItemsSource="{Binding Monkeys}"
-                SelectionMode="Single"
-                SelectionChanged="OnSelectionChanged" />
     </StackLayout>
 </ContentPage>
